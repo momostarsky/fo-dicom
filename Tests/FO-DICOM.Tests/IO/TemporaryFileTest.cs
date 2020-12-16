@@ -105,7 +105,7 @@ namespace FellowOakDicom.Tests.IO
             {
                 TemporaryFile.StoragePath = null;
                 var path = TemporaryFile.Create().Name;
-                Assert.True((File.GetAttributes(path) & FileAttributes.Temporary) == FileAttributes.Temporary);
+                Assert.True(File.GetAttributes(path)   == FileAttributes.Normal);
             }
         }
 

@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>netcoreapp2.1;netcoreapp3.1</TargetFrameworks>
     <RootNamespace>FellowOakDicom.Benchmark</RootNamespace>
     <AssemblyName>FO-DICOM.Benchmark</AssemblyName>
     <LangVersion>8.0</LangVersion>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
